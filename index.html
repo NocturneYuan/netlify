@@ -41,22 +41,32 @@
 </head>
 <body>
   <div class="container">
-    <header>
-  <!-- 大頭照，記得把 me.jpg 換成你的檔名 -->
-  <img src="./me.jpg" alt="Zong Yuan Huang"style="max-width:150px; height:auto;">
+    <header style="display:flex; align-items:flex-start; justify-content:flex-start; gap:32px;">
 
-  <h1>Zong Yuan Huang</h1>
-  <!-- <div class="small">Yuan</div> 如需中文姓名可解註釋 -->
-  <div>Ph.D. Student</div>
-  <div>Graduate Institute of Statistics</div>
-  <div>National Central University, Taiwan</div>
+  <!-- 左邊：照片 -->
+  <img src="./me.jpg" alt="Zong Yuan Huang"
+       style="width:160px; height:auto; border:1px solid #ccc;">
 
-  <nav class="topnav" aria-label="Primary">
-    <a href="#education">Education</a> ·
-    <a href="#interests">Research&nbsp;Interests</a> ·
-    <a href="#publications">Publication</a> ·
-    <a href="#contact">Contact</a>
-  </nav>
+  <!-- 右邊：文字 -->
+  <div style="text-align:left; line-height:1.4;">
+    <h1 style="margin:0; font-size:22px; color:#0645ad;">Zong Yuan Huang</h1>
+    <div>Ph.D. Student</div>
+    <div>Graduate Institute of Statistics</div>
+    <div>National Central University, Taiwan.</div>
+
+    <div style="margin-top:12px;">
+      Office: M604<br>
+      E-mail: <a href="mailto:yuan31415@gmail.com">yuan31415@gmail.com</a>
+    </div>
+
+    <nav class="topnav" aria-label="Primary" style="margin-top:16px;">
+      <a href="#education">Education</a> ·
+      <a href="#interests">Research&nbsp;Interests</a> ·
+      <a href="#publications">Publication</a> ·
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+
 </header>
 
     <hr>
